@@ -1,0 +1,66 @@
+body{
+    font-family: 'VT323', monospace;
+    display: flex;
+    flex-direction: column;
+    color: darkblue;
+    font-weight: 1000;
+    font-size: 80px;
+    background-image: url(./Design/4525960-digital-art-pixel-art-pixels-pixelated-nature-landscape-water-clouds-sky-horizon-simple.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div{
+    font-family: 'VT323', monospace;
+}
+
+.title{
+    text-align: center;
+    height: 10vh;
+    font-size: 120px;
+}
+
+.pet{
+    text-align: center;
+    height: 60vh;
+    padding-top: 70px;
+}
+
+.buttons{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    justify-content: space-around;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 350px;
+
+}
+
+.feed{
+    height: 30%;
+    width: 10%;
+    text-align: center;
+    line-height: 170%;
+    border-radius: 20%;
+}
+
+.play{
+    height: 30%;
+    width: 10%;
+    text-align: center;
+    line-height: 170%;
+    border-radius: 20%;
+}
+
+.cure{
+    height: 30%;
+    width: 10%;
+    text-align: center;
+    line-height: 170%;
+    border-radius: 20%;
+}
+
+.feed:hover{
+    text-decoration-color: floralwhite;
+}
